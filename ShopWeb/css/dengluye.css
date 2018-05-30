@@ -1,0 +1,180 @@
+#mb_bar li a {
+    color: #666;
+    font-size: 16px;
+}
+*{
+    margin: 0 ;
+    padding: 0;
+    font-size: 14px;
+    font-family:"微软雅黑";
+}
+.top{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.top_left{
+    width: 1000px;
+    margin: 0 auto;
+}
+.top_right{
+    width: 100%;
+    height: 18px;
+    background: rgb(221,221,221);
+}
+.top_right1{
+    width: 1000px;
+    margin: 0 auto;
+    line-height: 18px;
+    color: red;
+}
+.top_right1 span{
+    float: right;
+}
+.main0{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.main{
+    width: 1200px;
+    position: relative;
+    margin: 60px auto 0;
+    height: 600px;
+}
+.main_left img{
+    width: 600px;
+    height: auto;
+}
+.main_right{
+    position: absolute;
+    top: 0;
+    left: 680px;
+    border:1px solid #ccc ;
+    width: 420px;
+}
+.main_right_login{
+    width: 414px;
+    margin: 26px auto;
+}
+.user_login{
+    width: 360px;
+    margin: 0 auto;
+    position: relative;
+}
+.account_number,.scan_code{
+    cursor:pointer;
+    width: 180px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #ccc;
+}
+.scan_code{
+    position: absolute;
+    top:0;
+    left: 180px;
+}
+.user{
+    width: 310px;
+    margin: 30px auto 0;
+    height: 40px;
+    position: relative;
+}
+.user div{
+    width: 46px;
+    height: 40px;
+}
+.user input{
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    top: 0;
+    left: 46px;
+}
+.user_hint,.password_hint{
+    display: block;
+    position: absolute;
+    left: 302px;
+    top: 8px;
+}
+.forget_password{
+    height: 20px;
+    margin: 40px 30px 0 0;
+}
+.forget_password a{
+    color: #333;
+    float: right;
+}
+.active{
+    width: 300px;
+    margin: 0 auto;
+}
+.active button{
+    width: 300px;
+    height: 40px;
+    background: red;
+    color: white;
+    font-size: 18px;
+}
+.prompt{
+    font-size: 13px;
+    width: 190px;
+    margin: 16px auto 0;
+}
+ul li{
+    list-style: none;
+}
+.other_login{
+    height: 40px;
+    width: 330px;
+    margin:  20px auto 0;
+}
+.other_login ul li{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin:0 12px;
+}
+.register2{
+    height: 20px;
+    margin: 30px 30px 0 0;
+}
+.register2 a{
+    text-decoration: none;
+    color: red;
+    float: right;
+}
+.scan_code_login{
+    display: none;
+    margin: 0 auto;
+    width: 420px;
+}
+.login_img{
+    width: 300px;
+    margin: 0 auto;
+}
+.login_img img{
+    width: 300px;
+    height: auto;
+}
+.mobile_login{
+    width: 206px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.scan_code_login button{
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #ccc;
+    float: right;
+    margin-top: 20px;
+}
+.footer{
+   font-size: 14px;
+    width: 1000px;
+    margin: 0 auto;
+    color: #777;
+    text-align: center;
+}

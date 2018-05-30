@@ -1,0 +1,282 @@
+#mb_bar li a {
+    color: #666;
+    font-size: 16px;
+}
+
+/*订单提交成功*/
+#Order_Success{
+    margin: 10px auto;
+    width: 1000px;
+    height: 50px;
+    font-size: 12px;
+}
+.pwdWord{
+    float: right;
+
+}
+.pwdWord input{
+    text-align: center;
+}
+.Order_Success1{
+    float: left;
+    color: #999;
+}
+.Order_Success1 p:nth-child(1){
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+}
+.Order_Success1 p span{
+    color: #e31613;
+}
+.Order_Success2{
+    float: right;
+    color: #999;
+    text-align: right;
+}
+
+.Order_Success2 p span:nth-child(2) {
+    color: #e43f43;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+.Order_Success2 a p{
+    padding-right: 20px;
+    background: url("../images/pay_all/down arrow.png") no-repeat 132px 4px;
+}
+.Order_Success2 a {
+    color: #4079b8;
+}
+/*选择支付方式*/
+#payment_mode1{
+    width: 1000px;
+    border: 1px solid #e8e8e8;
+    margin: 0 auto;
+}
+.payment_opt{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #fff;
+    width: 101px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: url("../images/pay_all/modeback.png");
+}
+.add_bank_card{
+    width: 440px;
+    height: 70px;
+    margin: 10px auto;
+    text-align: center;
+}
+.add_bank_card p:nth-child(1){
+    font-size: 30px;
+    color: #333;
+}
+.add_bank_card p span{
+    color: #e31613;
+    padding: 0 8px;
+}
+/*<!--选择银行卡-->*/
+.bank_card{
+    width: 890px;
+
+    margin: 0 auto;
+    line-height: 80px;
+}
+.bank_card ul{
+    height: 280px;
+}
+.bank_card ul li{
+    float: left;
+    width: 210px;
+    height: 80px;
+    margin: 6px 5px;
+    border: 1px solid #e8e8e8;
+    cursor: pointer;
+}
+.bank_card ul li:nth-child(1){
+    background: url("../images/pay_all/bank1.png") 0 -1px;
+}
+.bank_card ul li:nth-child(2){
+    background: url("../images/pay_all/bank1.png") 0 80px;
+}
+.bank_card ul li:nth-child(3){
+    background: url("../images/pay_all/bank1.png") 0 170px;
+}
+
+.bank_card ul li:nth-child(4){
+    background: url("../images/pay_all/bank1.png") 0 260px;
+}
+.bank_card ul li:nth-child(5){
+    background: url("../images/pay_all/bank1.png") 0 350px;
+}
+.bank_card ul li:nth-child(6){
+    background: url("../images/pay_all/bank1.png") 0 440px;
+}
+
+.bank_card ul li:nth-child(7){
+    background: url("../images/pay_all/bank1.png") 0 530px;
+}
+.bank_card ul li:nth-child(8){
+    background: url("../images/pay_all/bank1.png") 0 620px;
+}
+.bank_card ul li:nth-child(9){
+    background: url("../images/pay_all/bank1.png") 0 710px;
+}
+
+.bank_card ul li:nth-child(10){
+    background: url("../images/pay_all/bank1.png") 0 799px;
+}
+.bank_card ul li:nth-child(11){
+    background: url("../images/pay_all/bank1.png") 0 891px;
+}
+.bank_card ul li:nth-child(12){
+    background: url("../images/pay_all/bank1.png") 0 982px;
+}
+
+.bank_card ul li input{
+    width: 16px;
+    height: 16px;
+    margin-left: 170px;
+    cursor: pointer;
+}
+/*<!--展开-->*/
+.open_card{
+    margin: 10px auto;
+    text-align: center;
+    font-size: 13px;
+    color: #4079b8;
+    cursor: pointer;
+}
+/*网银支付*/
+.network_pay{
+    width: 210px;
+    height: 80px;
+    margin: 30px 0 0 60px;
+    border: 1px solid #e8e8e8;
+    cursor: pointer;
+    background: url("../images/pay_all/network_pay.png") no-repeat center;
+}
+.network_pay input{
+    width: 16px;
+    height: 16px;
+    margin: 32px 0 0 170px ;
+    cursor: pointer;
+}
+/*<!--网银支付方式-->*/
+.payment_mode2{
+    width: 1000px;
+    height: 60px;
+    margin: 20px auto;
+    border: 1px solid #e8e8e8;
+}
+.payment_mode2 div{
+    width: 692px;
+    margin: 0 auto;
+}
+.payment_mode2 div div{
+    width: 173px;
+    height: 60px;
+    float: left;
+    cursor: pointer;
+}
+.payment_mode2 div div input{
+    width: 16px;
+    height: 16px;
+    margin: 24px 0 0 150px;
+    cursor: pointer;
+}
+.payment_mode2 div div:nth-child(1){
+    background: url("../images/pay_all/Alipay1.png") no-repeat 0 0;
+}
+.payment_mode2 div div:nth-child(2){
+    background: url("../images/pay_all/Alipay1.png") no-repeat 0 -69px;
+}
+.payment_mode2 div div:nth-child(3){
+    background: url("../images/pay_all/Alipay1.png") no-repeat 0 -138px;
+}
+.payment_mode2 div div:nth-child(4){
+    background: url("../images/pay_all/Alipay1.png") no-repeat 0 -206px;
+}
+/*确认支付*/
+.confirm_pay{
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #333;
+}
+.all_money{
+    height: 40px;
+    line-height: 40px;
+}
+.all_money span{
+    padding: 0 0 0 30px;
+    color: #e31613;
+}
+.network_safe{
+    float: right;
+    margin-right: 10px;
+}
+.pay_pass{
+    width: 240px;
+    position: relative;
+    line-height: 24px;
+    text-align: center;
+    top:5px;
+    left: 750px;
+}
+.pay_pass input{
+    height: 20px;
+    width: 20px;
+    margin: -3px;
+    outline: none;
+}
+.con_forget{
+    position: relative;
+    text-align: center;
+    width: 120px;
+    top : 10px;
+    left: 880px;
+}
+.con_forget input{
+    width: 100px;
+    height: 40px;
+    background: #e31613;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 2px;
+    border: none;
+}
+
+
+
+
+/*移入移出*/
+.footer_01 a:hover{
+    color: #ff0036;
+}
+.footer2_1 a:hover {
+    color: #fff;
+}
+.home_TopSearch_bo span:hover{
+    color: #4f77c8;
+}
+.home_sign a:hover{
+    color: #ff0036;
+}
+body .borderClass{
+    border : 1px solid darkred;
+}
+.classification li:hover{
+    color: #b5b5b5;
+}
+.hot_commodity_menu_bar a:hover{
+    color: #e50e0e;
+}
+.new_commodity_more a:hover{
+    color: #e96365;
+}

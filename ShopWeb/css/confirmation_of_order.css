@@ -1,0 +1,300 @@
+#mb_bar li a {
+    color: #666;
+    font-size: 16px;
+}
+#confirm_order{
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.confirm_address{
+    height: 20px;
+    margin: 20px auto;
+}
+.confirm_address_Underline{
+    border-bottom: 2px solid #d2d2d2;
+}
+.confirm_address div:nth-child(1){
+    float: left;
+    color: #666;
+    font-weight: bold;
+    font-size: 14px;
+}
+.confirm_address div:nth-child(2){
+    float: right;
+}
+.confirm_address div a{
+    color: #4f77c8;
+}
+
+/*地址管理*/
+.Management_address{
+    line-height: 30px;
+    color: #666;
+}
+
+.Management_address_ul_li{
+    height: 30px;
+    padding: 0 12px;
+    border: 1px solid transparent;
+}
+
+/*----------------------------------*/
+
+#Management_address_ul .management_add_send{
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #e64346;
+}
+
+.Management_address_ul_li_div{
+    width: 70px;
+    height: 28px;
+    float: left;
+    color: #e64346;
+}
+.Management_address_ul_li_div p{
+    display: none;
+    padding: 0 0 0 20px;
+    background: url("../images/confirm_order/address2.png") no-repeat 0 3px;
+}
+.Management_address_ul_li:nth-child(1) p{
+    display: block;
+}
+.Management_address_ul_li:nth-child(1) a{
+    display: block;
+}
+.Management_address_ul_li span{
+    margin: 0 60px 0 0;
+}
+.Management_address_ul_li a{
+    color: #4f77c8;
+    float: right;
+    display: none;
+}
+
+.new_address{
+    width: 85px;
+    height: 24px;
+    background: #f6f6f6;
+    border: 1px solid #b5b5b5;
+    border-radius: 3px;
+    margin: 10px 110px 0;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+.new_address span:nth-child(1){
+    font-size: 16px;
+    color: #e64346;
+    font-weight: bold;
+}
+.new_address span:nth-child(2){
+    color: #666;
+    line-height: 12px;
+}
+
+.address_info1{
+    height: 290px;
+    background: #f7f7f7;
+    color: #999;
+}
+.address_distribution{
+    float: left;
+    font-size: 14px;
+    height: 210px;
+    width: 320px;
+    padding: 15px 0 0 20px;
+}
+.address_distribution1{
+    width: 320px;
+    height: 115px;
+    border-bottom: 1px solid #999;
+}
+.address_distribution1 p{
+    color: #666;
+    font-weight: bold;
+}
+.address_distribution1 div{
+    margin: 10px 0;
+    width: 150px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    color: #737373;
+    border: 1px solid #e96365;
+}
+.address_distribution1 span{
+    margin-top: 30px;
+    display: block;
+}
+.address_distribution1_10{
+    float: left;
+    width: 60px;
+    margin: 10px 10px 0 0;
+}
+.address_distribution1_11{
+    margin: 14px 10px 0 0;
+    float: left;
+    width: 10px;
+    height: 10px;
+    background: #f7f7f7;
+    border: 1px solid #666;
+    cursor: pointer;
+}
+.address_distribution1_12{
+    float: left;
+    height: 50px;
+    width: 180px;
+    margin: 10px 0 0;
+}
+.address_distribution1_13{
+    margin: 10px 0 0;
+    float: right;
+}
+
+.address_distribution_right{
+    float: right;
+    width: 615px;
+    height: 240px;
+    background: #f3fbfe;
+    padding: 50px 0 0 25px;
+}
+.address_distribution_right div{
+    margin: 0 40px 0 0;
+    float: left;
+}
+.address_distribution2_1{
+    color: #e63030;
+    font-weight: bold;
+}
+
+.address_info2{
+    margin-top: 50px;
+}
+
+.address_remarks{
+    margin: 10px 0;
+    color: #999;
+    line-height: 25px;
+}
+.address_remarks2 input{
+    margin: 0 20px;
+    width: 530px;
+    height: 25px;
+}
+.pay_mon{
+    height: 125px;
+    line-height: 25px;
+    margin-top: 10px;
+    color: #b8b8b8;
+}
+.pay_mon div{
+    margin-left: 50px;
+    text-align: right;
+    height: 125px;
+    float: right;
+}
+.Should_pay{
+    height: 85px;
+    background: #f4f4f4;
+    border: 2px solid #e8e8e8;
+    border-radius: 3px;
+    line-height: 40px;
+    text-align: right;
+    color: #a7a7a7;
+}
+.Should_pay1 span:nth-child(2){
+    color: #e43f43;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 18px;
+}
+.Should_pay2 span{
+    margin: 0 10px;
+}
+
+
+#Settlement_btn{
+    margin: 10px 0 0 860px;
+    background: #e43f43;
+    border: none;
+    border-radius: 3px;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+
+/*JS*/
+#mb_bar .text-Red{
+    color: #ff0036;
+}
+
+/*移入移出*/
+.footer_01 a:hover{
+    color: #ff0036;
+}
+.footer2_1 a:hover {
+    color: #fff;
+}
+.home_TopSearch_bo span:hover{
+    color: #4f77c8;
+}
+.home_sign a:hover{
+    color: #ff0036;
+}
+body .borderClass{
+    border : 1px solid darkred;
+}
+.classification li:hover{
+    color: #b5b5b5;
+}
+.hot_commodity_menu_bar a:hover{
+    color: #e50e0e;
+}
+.new_commodity_more a:hover{
+    color: #e96365;
+}
+.divTextnow{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    background: rgba(152,255,255,0.2);
+    z-index: 999;
+}
+.textNow{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    text-align: center;
+    color: #666;
+    background: rgba(255,255,255,0.8);
+    margin: 50px 0;
+    border-radius: 40px;
+}
+/*选中的时候导航颜色*/
+#mb_bar .text-Red{
+    color: #ff0036;
+}
+/*点击的时候导航颜色*/
+#mb_bar .actText-Red {
+    color: #e20606;
+}
+body .navDivMark{
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    left: 220px;
+    top: -20px;
+    background: rgba(125,125,125,0.6);
+}

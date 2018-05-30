@@ -1,0 +1,203 @@
+#mb_bar li a {
+    color: #666;
+    font-size: 16px;
+}
+*{
+    margin: 0 ;
+    padding: 0;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+a{
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+}
+.top1{
+    width: 1000px;
+    height: 76px;
+    margin: 0 auto;
+}
+.login{
+    float: right;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 40px;
+}
+.login span{
+    color: #777;
+}
+.login a{
+    color: #333;
+    font-weight: bold;
+}
+.main{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.main1{
+    margin-top: 60px;
+    width: 500px;
+    height: 484px;
+    border-right: 1px solid #ccc;
+}
+.user,.password{
+    border: 1px solid #ccc;
+    width: 350px;
+    height: 42px;
+    margin-bottom: 30px;
+}
+.name,.set,.identifying_code{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    letter-spacing:5px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+.user input,.password input,.iphone input{
+    width: 228px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+}
+.iphone{
+    border: 1px solid #ccc;
+    width: 350px;
+    height: 42px;
+    margin-bottom: 8px;
+}
+.mailbox{
+    float: right;
+    width: 66px;
+    height: 18px;
+    margin-right: 150px;
+}
+.img_IC{
+    border: 1px solid #ccc;
+    width: 350px;
+    height: 42px;
+    margin-top: 30px;
+}
+.iphone select{
+    width: 100px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 2px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
+    padding-right: 14px;
+}
+.img_IC input,.iphone_IC input{
+    width: 148px;
+    height: 38px;
+    border: none;
+    font-size: 14px;
+}
+.identifying_code_img{
+    position: absolute;
+    left: 254px;
+    top: 2px;
+}
+.img_IC{
+    position: relative;
+}
+.identifying_code_img img{
+    height: 38px;
+    width: auto;
+}
+.ic{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.iphone_IC button{
+    height: 40px;
+    font-size: 16px;
+    background: #ccc;
+    width: 92px;
+    float: right;
+}
+.iphone_IC{
+    border: 1px solid #ccc;
+    width: 350px;
+    height: 42px;
+    margin-top: 30px;
+    position: relative;
+}
+.iphone_IC_hint{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 256px;
+    font-size: 16px;
+    width: 92px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #ccc;
+}
+.register a button{
+    background: red;
+    width: 350px;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+}
+.main2{
+    position: absolute;
+    top: 0;
+    left: 600px;
+}
+.main2_top{
+    width: 160px;
+    margin-bottom: 30px;
+}
+.main2_top div{
+    display: inline-block;
+    color: #777;
+    font-size: 12px;
+    width: 100px;
+    word-wrap:break-word;
+    float: right;
+}
+ul li{
+    list-style: none;
+}
+.footer{
+    margin: 60px auto 0;
+    width: 900px;
+    height: 60px;
+}
+.footer1{
+    height: 30px;
+}
+.footer1 ul li{
+    float: left;
+    height: 17px;
+    line-height: 17px;
+    border-right: 1px solid #333;
+    padding: 0 10px;
+}
+.footer1 ul li a{
+    color: #333;
+}
+.footer1 ul :last-child{
+    border-right:none;
+}
+.footer2{
+    width: 260px;
+    margin: 20px auto 0;
+    color: #ccc;
+}

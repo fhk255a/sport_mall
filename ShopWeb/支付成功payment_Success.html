@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>支付成功Payment_Success</title>
+    <link rel="stylesheet" href="css/head_top_footer.css" />
+    <link rel="stylesheet" href="css/Payment_Success.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/hk库.js"></script>
+</head>
+<body>
+
+    <!--top头部-->
+    <div id="head_top">
+        <!--顶部黑条-->
+        <div id="home_top">
+            <div class="home_top">
+                <div class="hello"><span>您好，欢迎来到龙仕达</span></div>
+                <div class="home_sign">
+                    <!--第二个a是红色-->
+                    <a href="登录页面.html">登录</a>
+                    <a href="注册页面.html">注册</a>
+                    <!--<a href="#"></a>-->
+                    <!--<a href="#">dwlkua4v</a>-->
+                    <!--<a href="#">会议中心</a>-->
+                    <a href="我的订单页.html">我的订单</a>
+                    <a href="#">帮助反馈</a>
+                </div>
+            </div>
+        </div>
+
+        <!--logo 搜索框-->
+        <div id="home_search">
+            <div class="logo">
+                <a href="index.html"><span class="logo-span"></span></a>
+            </div>
+            <div class="home_search">
+                <div class="home_TopSearch">
+                    <input type="text" placeholder="   搜索产品" />
+                    <div></div>
+                    <a href="#"><span></span></a>
+                </div>
+                <div class="home_TopSearch_bo">
+                    <a href="#"><span>篮球</span></a>
+                    <a href="#"><span>足球</span></a>
+                    <a href="#"><span>羽毛球</span></a>
+                    <a href="#"><span>运动服</span></a>
+                </div>
+            </div>
+            <a href="购物车页面.html">
+                <div class="Shopping_Cart">
+                    <div><img src="images/home-page/buyCar.png" alt=""></div>
+                    <span>我的购物车</span>
+                    <div class="buyCar_news">
+                        0
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!--菜单栏-->
+        <div id="menu_bar">
+            <div id="menu_bar_drop_down">
+                <span class="menu_bar_bar-1">全部商品分类 <i class="iconfont icon-shouqi icon-xiala"></i></span>
+            </div>
+            <!--首页-特惠-->
+            <div id="menu_bar_bar">
+                <ul id="mb_bar">
+                    <li>
+                        <a href="index.html">
+                            <span class="mb_bar_li_a_nth-child1">首页</span></a>
+                    </li>
+                    <li>
+                        <a href="商品列表.html">球类</a>
+                    </li>
+                    <li>
+                        <a href="#">运动鞋</a>
+                    </li>
+                    <li>
+                        <a href="#">健身器材</a>
+                    </li>
+                    <li>
+                        <a href="#">体育器材</a>
+                    </li>
+                    <li>
+                        <a href="#">运动休闲设备</a>
+                    </li>
+                    <li>
+                        <a href="#">团购</a>
+                    </li>
+                    <li>
+                        <a href="#">特惠</a>
+                    </li>
+                </ul>
+            </div>
+            <!--商品分类 隐藏-->
+            <div id="mb_drop_down_bar">
+                <div class="classification">
+                    <div class="mbdd_ification">
+                        <div>
+                            <span>球类</span>
+                            <span class="mbdd_ification111">></span>
+                        </div>
+                        <ul>
+                            <li>篮球</li>
+                            <li>羽毛球</li>
+                            <li>排球</li>
+                            <li>网球</li>
+                            <li>足球</li>
+                        </ul>
+                    </div>
+                    <div class="mbdd_ification">
+                        <div>
+                            <span>运动鞋</span>
+                            <span class="mbdd_ification111">></span>
+                        </div>
+                        <ul>
+                            <li>篮球鞋</li>
+                            <li>羽毛球鞋</li>
+                            <li>排球鞋</li>
+                            <li>网球鞋</li>
+                            <li>足球鞋</li>
+                        </ul>
+                    </div>
+                    <div class="mbdd_ification">
+                        <div>
+                            <span>健身器材</span>
+                            <span class="mbdd_ification111">></span>
+                        </div>
+                        <ul>
+                            <li>跑步机</li>
+                            <li>健身车</li>
+                            <li>划船器</li>
+                            <li>杠铃哑铃设备</li>
+                        </ul>
+                    </div>
+                    <div class="mbdd_ification">
+                        <div>
+                            <span>体育器材</span>
+                            <span class="mbdd_ification111">></span>
+                        </div>
+                        <ul>
+                            <li>乒乓球桌</li>
+                            <li>台球桌</li>
+                            <li>地板</li>
+                            <li>场地设施</li>
+                            <li>拳击设备</li>
+                        </ul>
+                    </div>
+                    <div class="mbdd_ification">
+                        <div>
+                            <span>运动休闲设备</span>
+                            <span class="mbdd_ification111">></span>
+                        </div>
+                        <ul>
+                            <li>按摩椅</li>
+                            <li>律动仪</li>
+                            <li>律动沙发</li>
+                            <li>律动床</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--框-->
+    <div class="pay_success_bor">
+        <div class="pay_success">
+            <div class="pay_success1">
+                <img src="images/pay_all/success.png" alt="">
+                <div>您已成功付款<span>9990.5</span>元</div>
+            </div>
+            <div class="pay_success2">
+                <p>货物寄送至:广东省 广州市 海珠区 范鸿楷 收 13226627208<a href="#">设置为默认收货地址</a></p>
+            </div>
+
+            <div class="pay_success3">
+                <a href="订单详情页.html">已买到宝贝列表</a>
+                <a href="我的订单页.html">订单详情</a>
+            </div>
+
+            <div class="pay_success4">
+                <a href="#">点击领取小礼物：</a>
+            </div>
+
+            <div class="pay_success5">
+                <img src="images/pay_all/remind.png" alt="">
+                <div class="pay_success5_1">
+                    <span>安全提醒:</span>
+                    <span>下单后,<span>用QQ给您发送链接办理退款的都是骗子</span>！</span>
+                </div>
+                <div class="pay_success5_2">
+                    <span>谨防假冒客服电话诈骗！</span>
+                    <a href="#">安心购物，安全无忧》</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--含有多快好省的底部-->
+    <div class="bottom_foot">
+        <!--多快好省-->
+        <div id="more_better">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!--底部-->
+        <div id="bottom_foot">
+            <div id="bottomFoot1">
+                <div class="footer1">
+                    <ul>
+                        <li>
+                            <ul class="footer_01">
+                                <li>购物指南</li>
+                                <li><a href="#">购物流程</a></li>
+                                <li><a href="#">会议介绍</a></li>
+                                <li><a href="#">生活旅行</a></li>
+                                <li><a href="#">常见问题</a></li>
+                                <li><a href="#">大家电</a></li>
+                                <li><a href="#">联系客服</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="footer_01">
+                                <li>配送方式</li>
+                                <li><a href="#">上门自提</a></li>
+                                <li><a href="#">211限时送达</a></li>
+                                <li><a href="#">配送服务查询</a></li>
+                                <li><a href="#">配送费收取标准</a></li>
+                                <li><a href="#">海外配送</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="footer_01">
+                                <li>支付方式</li>
+                                <li><a href="#">货到付款</a></li>
+                                <li><a href="#">在线支付</a></li>
+                                <li><a href="#">分期付款</a></li>
+                                <li><a href="#">邮局汇款</a></li>
+                                <li><a href="#">公司转账</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="footer_01">
+                                <li>售后服务</li>
+                                <li><a href="#">售后政策</a></li>
+                                <li><a href="#">价格保护</a></li>
+                                <li><a href="#">退款说明</a></li>
+                                <li><a href="#">返修/退换货</a></li>
+                                <li><a href="#">取消订单</a></li>
+                            </ul>
+                        </li>
+                        <img src="images/home-page/logo_1.jpg" alt="">
+                    </ul>
+                </div>
+            </div>
+            <div id="bottomFoot2">
+                <div class="footer2">
+                    <ul class="footer2_0 footer2_1">
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">联系我们</a></li>
+                        <li><a href="#">联系客服</a></li>
+                        <li><a href="#">合作招商</a></li>
+                        <li><a href="#">商家帮助</a></li>
+                        <li><a href="#">营销中心</a></li>
+                        <li><a href="#">手机商城</a></li>
+                        <li><a href="#">友情链接</a></li>
+                        <li><a href="#">销售联盟</a></li>
+                        <li><a href="#">龙士达社区</a></li>
+                        <li><a href="#">风险检测</a></li>
+                        <li><a href="#">隐私政策</a></li>
+                        <li><a href="#">龙仕达公益</a></li>
+                        <li><a href="#">English  Site</a></li>
+                        <li><a href="#">Media  & I R </a></li>
+                    </ul>
+                    <ul class="footer2_0 footer2_2">
+                        <li><a href="#">京公网安备  11000002000088号</a></li>
+                        <li><a href="#">京I CP证070359号</a></li>
+                        <li><a href="#">互联网药品信息服务资格证编号(京)-经营性-2014 0008</a></li>
+                        <li><a href="#">新出发京零 字第大 120007 号</a></li>
+                    </ul>
+                    <ul class="footer2_0 footer2_3">
+                        <li><a href="#">互联网出版许可证编号新出网证(京)字 150号</a></li>
+                        <li><a href="#">出版物经营许可证</a></li>
+                        <li><a href="#">网络文化经营许可证京网文[201 4]21 48-348号</a></li>
+                        <li><a href="#">违法和不良信息举报电话：4006561155</a></li>
+                    </ul>
+                    <ul class="footer2_0 footer2_4">
+                        <li><a href="#">Copyright 2004 - 2017 版权所有</a></li>
+                        <li><a href="#">消费者维权热线：4006067733   经营证照</a></li>
+                        <li><a href="#">龙士达</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

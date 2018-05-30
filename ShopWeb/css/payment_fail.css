@@ -1,0 +1,88 @@
+
+#mb_bar li a {
+    color: #666;
+    font-size: 16px;
+}
+.pay_fail_bor{
+    width: 1200px;
+    height: 300px;
+    border: 1px solid #e20606;
+    margin: 90px auto;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666;
+}
+.pay_fail_bor_pic{
+    float: left;
+    margin: 80px 0 0 110px;
+}
+.pay_fail{
+    float: left;
+    margin: 80px 0 0 10px;
+    width: 380px;
+    height: 130px;
+}
+.pay_fail div:nth-child(1){
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.pay_fail div:nth-child(2){
+    line-height: 30px;
+}
+.pay_fail_c{
+    margin: 20px 0 0;
+}
+.pay_fail_c input{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background: #eeeeee;
+    border: 1px solid #d2d2d2;
+    margin: 0 16px;
+}
+.pay_fail_c a{
+    color: #ed4a4a;
+}
+
+.pay_fail_code{
+    border-left: 1px solid #ccc;
+    float: right;
+    margin-top: 30px;
+    width: 460px;
+    height: 240px;
+    text-align: center;
+}
+.pay_fail_code img{
+    margin: 30px auto 10px;
+}
+.pay_fail_code span{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/*移入移出*/
+.footer_01 a:hover{
+    color: #ff0036;
+}
+.footer2_1 a:hover {
+    color: #fff;
+}
+.home_TopSearch_bo span:hover{
+    color: #4f77c8;
+}
+.home_sign a:hover{
+    color: #ff0036;
+}
+body .borderClass{
+    border : 1px solid darkred;
+}
+.classification li:hover{
+    color: #b5b5b5;
+}
+.hot_commodity_menu_bar a:hover{
+    color: #e50e0e;
+}
+.new_commodity_more a:hover{
+    color: #e96365;
+}

@@ -1,0 +1,104 @@
+
+#mb_bar li a {
+    color: #666;
+    font-size: 16px;
+}
+
+
+.pay_success_bor{
+    width: 1200px;
+    height: 300px;
+    border: 1px solid #e20606;
+    margin: 90px auto;
+    font-size: 12px;
+    line-height: 20px;
+}
+.pay_success{
+    width: 720px;
+    height: 210px;
+    margin: 45px auto;
+}
+.pay_success1 img{
+    float: left;
+}
+.pay_success1 div{
+    padding: 0 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+}
+.pay_success1 div span{
+    color: red;
+}
+.pay_success2{
+    padding-left: 40px;
+    color: #808080;
+}
+.pay_success2 p a{
+    color: #077bd2;
+}
+
+.pay_success3{
+    margin: 25px 35px 0;
+}
+.pay_success3 a{
+    color: #077bd2;
+    padding: 0 5px;
+    border-right: 1px solid #c9c9c9;
+}
+.pay_success4 a{
+    color: #077bd2;
+    padding: 0 40px;
+}
+.pay_success5{
+    margin: 30px 0 0 40px;
+    padding: 5px 0;
+    color: #333;
+    border-bottom: 1px dotted #e0e0e0;
+    border-top: 1px dotted #e0e0e0;
+}
+.pay_success5 img{
+    float: left;
+}
+.pay_success5_1 span:nth-child(1){
+    margin-left: 5px;
+    font-weight: bold;
+}
+.pay_success5_1 span span{
+    color: #de1515;
+}
+.pay_success5_2{
+    margin-left: 240px;
+}
+.pay_success5_2 a{
+    color: #077bd2;
+}
+
+
+
+.footer_01 a:hover{
+    color: #ff0036;
+}
+.footer2_1 a:hover {
+    color: #fff;
+}
+.home_TopSearch_bo span:hover{
+    color: #4f77c8;
+}
+.home_sign a:hover{
+    color: #ff0036;
+}
+body .borderClass{
+    border : 1px solid darkred;
+}
+.classification li:hover{
+    color: #b5b5b5;
+}
+.hot_commodity_menu_bar a:hover{
+    color: #e50e0e;
+}
+.new_commodity_more a:hover{
+    color: #e96365;
+}

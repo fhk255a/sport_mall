@@ -1,0 +1,231 @@
+#mb_bar li a {
+    color: #666;
+    font-size: 16px;
+}
+
+.br{
+    width: 300px;
+    height: 30px;
+    border: 1px solid red;
+}
+
+.vip_center{
+    width: 1200px;
+    margin: 2px auto;
+    font-size: 14px;
+    color: #666;
+}
+.vip_center_menu{
+    position: relative;
+    /*float: left;*/
+    width: 225px;
+    height: 410px;
+    border: 1px solid #eee;
+}
+.vip_center_menu dl{
+    margin: 15px 0 0 50px;
+    line-height: 24px;
+}
+.vip_center_menu dl a{
+    color: #666;
+}
+.vip_center_list{
+    position: relative;
+    left: 240px;
+    top: -405px;
+    width: 940px;
+    /*border: 1px solid blue;*/
+}
+.vip_center_list1{
+    height: 160px;
+    border: 1px solid #d2d2d2;
+}
+.vip_center_list1_1{
+    height: 94px;
+    background: #f5f8fa;
+    border-top: 1px solid #dedede;
+}
+.vcl1_1_pic1{
+    margin: 15px 0 0 17px;
+    border: 1px solid #d2d2d2;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    float: left;
+    background: url("../images/vip_c/vip2.png") no-repeat -40px 7px;
+}
+.vcl1_1_tit1{
+    margin: 25px 0 0 100px;
+    color: #333;
+}
+.vip_center_list1_1 ul{
+    float: right;
+}
+.vip_center_list1_1 ul li{
+    float: left;
+    padding: 10px 30px;
+    margin-top: -10px;
+    color: #999;
+    font-size: 16px;
+    height: 60px;
+}
+.vip_center_list1_2{
+    height: 66px;
+    border-top: 1px solid #d2d2d2;
+}
+.vip_center_list1_2 ul{
+    margin: 20px 0;
+}
+.vip_center_list1_2 ul li{
+    float: left;
+    width: 186px;
+    height: 20px;
+    text-align: center;
+    border-left: 1px solid #d2d2d2;
+}
+.vip_center_list1 a{
+    color: #666;
+    display: inline-block;
+    padding: 0 1em 4px;
+}
+.vip_center_list1_2 ul li a span{
+    color: #e80e0e;
+}
+.vip_center_list1_2 ul li:first-child{
+    border:1px solid transparent;
+}
+.vip_center_list2{
+    height: 180px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.vip_center_list2_1{
+    height: 55px;
+    line-height: 55px;
+    background: #f5f8fa;
+    border-top: 1px solid #dedede;
+    background: url("../images/vip_c/vip_car.png")no-repeat 20px;
+}
+.vip_center_list2_1 p{
+    margin: 0 70px;
+    font-size: 16px;
+}
+.vip_center_list2_2{
+    height: 124px;
+    padding: 15px 20px;
+    border-top: 1px solid #d2d2d2;
+}
+.vcl2_1{
+    float: left;
+}
+.vcl2_2{
+    float: left;
+    width: 360px;
+    height: 80px;
+    line-height: 40px;
+    margin-left: 40px;
+}
+.vcl2_2 a{
+    color: #333;
+}
+.vip_center_list2_2 input{
+    margin: 30px 0 0 300px;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    background: #f7f7f7;
+    border: 1px solid #e3e3e3;
+    cursor: pointer;
+}
+
+/*js*/
+.orderNav-ActiveRed{
+    border-bottom: 2px solid #ff0036;
+    color: #ff0036;
+}
+.orderNav-ActiveBlue{
+    border-bottom: 2px solid #4991dd;
+    color: #4991dd;
+}
+.vip_center_menu .showRightIcon{
+    background:url("../images/图片精灵/right.png")no-repeat 150px 5px;
+}
+.vip_center_menu .text-blue{
+    color: #4991dd;
+}
+.vip_center_menu .text-Red{
+    color:#ff0036;
+}
+.vip_center_list1_1 ul .activeBG{
+    background-image: url("../images/图片精灵/activeBG.png") ;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position:0px 0px;
+}
+#mb_bar .text-Red{
+    color: #ff0036;
+}
+
+/*移入移出*/
+.footer_01 a:hover{
+    color: #ff0036;
+}
+.footer2_1 a:hover {
+    color: #fff;
+}
+.home_TopSearch_bo span:hover{
+    color: #4f77c8;
+}
+.home_sign a:hover{
+    color: #ff0036;
+}
+body .borderClass{
+    border : 1px solid darkred;
+}
+.classification li:hover{
+    color: #b5b5b5;
+}
+.hot_commodity_menu_bar a:hover{
+    color: #e50e0e;
+}
+.new_commodity_more a:hover{
+    color: #e96365;
+}
+.divTextnow{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    background: rgba(152,255,255,0.2);
+    z-index: 999;
+}
+.textNow{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    text-align: center;
+    color: #666;
+    background: rgba(255,255,255,0.8);
+    margin: 50px 0;
+    border-radius: 40px;
+}
+/*选中的时候导航颜色*/
+#mb_bar .text-Red{
+    color: #ff0036;
+}
+/*点击的时候导航颜色*/
+#mb_bar .actText-Red {
+    color: #e20606;
+}
+body .navDivMark{
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    left: 220px;
+    top: -20px;
+    background: rgba(125,125,125,0.6);
+}
